@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4caf50">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+
+  <h1>My To-Do List</h1>
+
+  <input type="text" id="taskInput" placeholder="Write a new task...">
+  <button id="addBtn">Add</button>
+
+  <ul id="taskList"></ul>
+
+  <p id="counter"></p>
+
+  <div id="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="active">Active</button>
+    <button data-filter="done">Done</button>
+  </div>
+
+  <button id="clearBtn">Clear completed</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
